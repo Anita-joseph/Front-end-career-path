@@ -1,0 +1,28 @@
+	:root {
+	    --color-black: #000;
+	    --background-color: #19948e;
+	}
+	
+	html,
+	body {
+	    margin: 10;
+	    padding: 10;
+	}
+	
+	.grid {
+	    display: flex;
+	    flex-wrap: wrap;
+	    width: 200px;
+	    height: 200px;
+	    border: 2px solid var(--color-black);
+	}
+	
+	.square {
+	    width: 20px;
+	    height: 20px;
+	    background-color: var(--background-color);
+	}
+	
+	.snake {
+	    background-color: brown;
+	}

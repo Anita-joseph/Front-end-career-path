@@ -1,0 +1,44 @@
+        body {
+            margin: 5%;
+            font-family: 'Gill Sans', 'Gill Sans MT';
+            display: grid;
+            justify-content: center;
+        }
+        
+        .title {
+            color: #16697A;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        
+        .entry-textbox {
+            background-color: #FFA62B;
+            width: 20em;
+            height: 10em;
+            padding: 1em;
+            margin-bottom: 0.5em;
+            border: unset;
+            border-radius: 25px;
+        }
+        
+        #entryForm .button {
+            border: unset;
+            border-radius: 25px;
+            padding: 5px 16px;
+            margin-left: 76%;
+        }
+        
+        .entry-textbox:focus {
+            outline: none;
+            box-shadow: 0px 0px 2px #000;
+        }
+        
+        #entries {
+            background-color: #cce7ec;
+            color: #db6719;
+            border-radius: 25px;
+            padding: 2em;
+            max-width: 13em;
+            border: unset;
+            margin-top: 1em;
+        }
