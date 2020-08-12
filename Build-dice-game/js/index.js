@@ -18,7 +18,7 @@ function reset() {
 
     dice.disabled = false;
     dice.style.cursor = 'pointer';
-    diceImg.setAttribute('src', 'images/1.png');
+    diceImg.setAttribute('src', 'img/1.png');
     diceImg.setAttribute('alt', '1');
 }
 
@@ -106,7 +106,7 @@ dice.addEventListener('click', function() {
 
     // Update state after animation has finished
     setTimeout(function() {
-        diceImg.setAttribute('src', 'images/' + diceValue + '.png');
+        diceImg.setAttribute('src', 'img/' + diceValue + '.png');
         diceImg.setAttribute('alt', diceValue);
         activePlayer.score += diceValue;
 
