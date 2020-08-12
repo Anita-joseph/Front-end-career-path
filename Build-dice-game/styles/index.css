@@ -1,0 +1,136 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1570303363992-7f95ee20ebdb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+p,
+h2 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 24px;
+    color: #ffa500;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #FFF;
+    border: unset;
+    border-radius: 5px;
+    color: #501a86;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn:focus,
+.btn:hover {
+    background: #4169e1;
+    color: #FFF;
+}
+
+.btn-reset {
+    display: none;
+}
+
+.btn-icon {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    min-height: 450px;
+    padding: 25px 30px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form-input {
+    width: 75%;
+    padding: 6px;
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.game {
+    display: none;
+    width: 80%;
+    text-align: center;
+}
+
+.players {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.player-scoreboard {
+    flex: 1;
+    font-weight: 700;
+    text-align: center;
+}
+
+.player-name {
+    color: orange;
+}
+
+.player-score {
+    display: block;
+    font-size: 72px;
+}
+
+.dice {
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+
+.dice:hover {
+    cursor: pointer;
+}
+
+.dice:focus {
+    outline: none;
+}
+
+.dice-image {
+    width: 128px;
+    height: auto;
+}
