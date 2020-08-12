@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta -->
+    <title>Dice Game</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="./styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="intro" class="intro">
+            <h2 class="intro-title">
+                Welcome!
+            </h2>
+
+            <p class="intro-body">
+                This is a dice game for two players. You take alternating turns and the amount of eyes you've rolled will be added to your total score. <strong>The first player to reach 25 points wins!</strong>
+            </p>
+
+            <p class="intro-body">
+                Ready to get started? Simply enter your names and click the "Start Playing" button!
+            </p>
+
+            <form id="form" class="form">
+                <div class="form-group">
+                    <label for="player-one" class="form-label">
+						Player One Name
+					</label>
+
+                    <input type="text" id="player-one" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="player-two" class="form-label">
+						Player Two Name
+					</label>
+
+                    <input type="text" id="player-two" class="form-input" required>
+                </div>
+
+                <button type="submit" id="start-btn" class="btn">Start Playing <span class="btn-icon">🎲</span></button>
+            </form>
+        </div>
+        <!-- / intro -->
+
+        <div class="game" id="game">
+            <h2 id="game-message" class="game-message"></h2>
+
+            <div class="players">
+                <p class="player-scoreboard">
+                    <span id="player-one-score" class="player-score"></span>
+                    <span id="player-one-name" class="player-name"></span>
+                </p>
+
+                <button id="dice" class="dice"><img src="images/1.png" alt="1" id="dice-image"
+						class="dice-image"></button>
+                <p class="player-scoreboard">
+                    <span id="player-two-score" class="player-score"></span>
+                    <span id="player-two-name" class="player-name"></span>
+                </p>
+            </div>
+            <button id="reset-btn" class="btn btn-reset">Reset Game <span class="btn-icon">🔁</span></button>
+        </div>
+        <!-- / game -->
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
