@@ -1,0 +1,113 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgreen;
+    background-image: url("../img/card-bckgrnd-picture.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#opponent-face {
+    font-size: 15vh;
+}
+
+#opponent-deck,
+#player-deck {
+    height: 21vh;
+}
+
+#opponent-deck>* {
+    margin-right: 35vw;
+    pointer-events: none;
+}
+
+#player-deck>* {
+    margin-left: 35vw;
+    pointer-events: none;
+}
+
+#discard-pile {
+    margin: 4vh 0px;
+    visibility: hidden;
+}
+
+#discard-pile>* {
+    pointer-events: none;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 15vh;
+    height: 21vh;
+}
+
+.card-back {
+    background: radial-gradient(#fff, #9198E5);
+    border: 15px solid white;
+}
+
+.card-front {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.right-side-up {
+    position: absolute;
+    left: 0.4vh;
+    top: 0.4vh;
+    text-align: center;
+}
+
+.flipped {
+    position: absolute;
+    right: 0.4vh;
+    bottom: 0.4vh;
+    text-align: center;
+    transform: rotate(180deg);
+}
+
+.card-art {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+}
+
+.card-art>* {
+    flex: 50%;
+    text-align: center;
+}
+
+.red {
+    color: #FF0000;
+}
+
+#play-again-wrapper {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#play-again-control,
+#win-lose-status {
+    padding: 5vh 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
