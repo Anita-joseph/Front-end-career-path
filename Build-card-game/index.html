@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Build a card game🃏</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="opponent-face">🙂</div>
+        <div id="opponent-deck">
+            <div class="card card-back"></div>
+        </div>
+        <div id="discard-pile">
+            <div class="card card-front">
+                <div class="card-number right-side-up"></div>
+                <div class="card-art"></div>
+                <div class="card-number flipped"></div>
+            </div>
+        </div>
+        <div id="player-deck">
+            <div class="card card-back"></div>
+        </div>
+    </div>
+    <div id="play-again-wrapper">
+        <div id="win-lose-status"></div>
+        <div id="play-again-control">
+            <button onclick="location.reload()">Play Again</button>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
