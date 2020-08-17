@@ -1,0 +1,53 @@
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("./img/bckgrnd-image.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+    *,
+    after,
+    before {
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        height: 150px;
+        width: 100%;
+        border: 10px inset yellow;
+    }
+    
+    h1 {
+        text-align: center;
+        line-height: 2;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 200px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:hover {
+        background: linear-gradient(orange, yellow);
+        color: darkblue;
+        font-size: 20px;
+        padding: 20px;
+        font-family: cursive;
+    }
