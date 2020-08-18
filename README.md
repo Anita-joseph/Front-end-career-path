@@ -1,5 +1,5 @@
 # Front-end-career-path
-# css & js func=damentals
+# css & js fundamentals
 # Making websites interactive
 # Build a diary app
 # Build a snake game
