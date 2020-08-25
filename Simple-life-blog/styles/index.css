@@ -27,6 +27,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    margin-top: 0;
 }
 
 h1 {
@@ -78,6 +79,10 @@ strong {
     text-decoration: underline;
 }
 
+.article-info {
+    margin: 2em 0;
+}
+
 
 /* =================
 Layout
@@ -99,6 +104,7 @@ header {
     background: #f8f8f8;
     padding: 2em 0;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 @media (min-width: 675px) {
@@ -106,10 +112,10 @@ header {
         flex-direction: row;
     }
     main {
-        width: 75%;
+        width: 70%;
     }
     aside {
-        width: 20%;
+        width: 25%;
     }
 }
 
@@ -153,5 +159,54 @@ nav a:focus {
     }
     nav li {
         margin: .5em 0;
+    }
+}
+
+
+/* articles */
+
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-recent-main {
+        width: 68%;
+    }
+    .article-recent-secondary {
+        width: 30%;
+    }
+    .article-featured {
+        display: flex;
+        flex-direction: column;
+    }
+    .article-image {
+        order: -2;
+        min-height: 250px;
+        object-fit: cover;
+        /* object-position: left; */
+    }
+    .article-info {
+        order: -1;
     }
 }
