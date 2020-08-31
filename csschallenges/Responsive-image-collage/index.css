@@ -1,0 +1,25 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+img {
+    width: 90%;
+    margin: 1em;
+    object-fit: cover;
+}
+
+@media (min-width: 600px) {
+    body {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    img {
+        width: 40%;
+    }
+}
