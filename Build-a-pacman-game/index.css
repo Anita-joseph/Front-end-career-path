@@ -25,6 +25,7 @@ body {
 
 .wall {
     background-color: blue;
+    background-image: linear-graident(blue, orange);
 }
 
 .power-pellet {
@@ -32,7 +33,15 @@ body {
     border-radius: 7.5px;
 }
 
+.pacman:before {
+    content: '🐉';
+}
+
 .pacman {
-    background-color: yellow;
+    display: block;
+    line-height: 7px;
+    /* background-color: orange; */
+    /* background-image: 🐉;
     border-radius: 7.5px;
+    border: none; */
 }
