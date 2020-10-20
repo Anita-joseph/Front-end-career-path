@@ -13,13 +13,13 @@ body {
 .my-gallery {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .my-photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .my-photo {
