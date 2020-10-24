@@ -1,0 +1,50 @@
+[{
+        "author": "Jane Austen",
+        "country": "United Kingdom",
+        "imageLink": "images/pride-and-prejudice.jpg",
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+        "pages": 226,
+        "title": "Pride and Prejudice",
+        "year": 1813
+    }, {
+        "author": "Albert Camus",
+        "country": "Algeria, French Empire",
+        "imageLink": "images/l-etranger.jpg",
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+        "pages": 185,
+        "title": "The Stranger",
+        "year": 1942
+    },
+    {
+        "author": "Geoffrey Chaucer",
+        "country": "England",
+        "imageLink": "images/the-canterbury-tales.jpg",
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
+        "pages": 544,
+        "title": "The Canterbury Tales",
+        "year": 1450
+    },
+
+    {
+        "author": "Charles Dickens",
+        "country": "United Kingdom",
+        "imageLink": "images/great-expectations.jpg",
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
+        "pages": 194,
+        "title": "Great Expectations",
+        "year": 1861
+    }, {
+        "author": "Fyodor Dostoevsky",
+        "country": "Russia",
+        "imageLink": "images/crime-and-punishment.jpg",
+        "language": "Russian",
+        "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
+        "pages": 551,
+        "title": "Crime and Punishment",
+        "year": 1866
+    }
+]

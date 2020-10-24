@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+.my-show {
+    background-color: lightblue;
+    margin: 0.3rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 2rem 13rem auto;
+    grid-gap: 0.2rem;
+}
+
+.my-show-title {
+    grid-column: span 4;
+}
+
+.my-show-summary {
+    grid-column: span 4;
+    font-size: 1rem;
+}
+
+.my-show-season {
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    border: 0.1rem solid black;
+    background-color: lightyellow;
+}
