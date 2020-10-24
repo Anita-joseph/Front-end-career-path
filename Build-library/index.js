@@ -1,16 +1,3 @@
-/* 
-    Library
-    
-    Fetch the collection of books 
-        from books.json, assign each 
-        a unique id
-        
-    Create a div to represent a book
-        using Grid & grid-template-areas 
-        build a book component
-        display all books using Flexbox
-*/
-
 async function getBooks() {
     let response = await fetch('books.json')
     let books = await response.json()
@@ -30,11 +17,12 @@ function getBookHtml(book) {
     </div>`
 }
 
-getBooks().then(books => {
-    let sampleBook = books[0]
-    console.log(sampleBook)
-
+function displayLibrary(books) {
     document.body.innerHTML = `<div class="my-library">
         ${books.map(getBookHtml).join('')}
     </div>`
-})
+}
+
+getBooks()
+    .then(displayLibrary)
+    .catch(e => console.log(e))
