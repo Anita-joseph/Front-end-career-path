@@ -6,9 +6,15 @@ body {
     padding: 1rem;
 }
 
+.my-library {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, calc(100% / 3));
+}
+
 .my-book {
     display: grid;
-    grid-template-columns: 1rem 8rem;
+    grid-template-columns: 1rem 7rem;
     grid-template-areas: "spine cover" "footer footer";
 }
 
@@ -22,7 +28,6 @@ body {
     background-color: lightgreen;
     text-align: center;
     padding: 1rem;
-    font-size: 1.3rem;
 }
 
 .my-book-spine {
@@ -36,4 +41,12 @@ body {
     padding: 0.2rem;
     background-color: lightgray;
     border-bottom-left-radius: 0.3rem;
+}
+
+.my-book:nth-of-type(even) .my-book-cover {
+    background-color: lightblue;
+}
+
+.my-book:nth-of-type(even) .my-book-spine {
+    background-color: #E1B07E;
 }
