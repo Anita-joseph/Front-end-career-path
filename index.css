@@ -29,7 +29,7 @@
     
     ul {
         display: grid;
-        grid-template: 200px 200px 200px/ 200px 200px 200px;
+        grid-template: 200px 200px 200px/ 200px 200px 200px 200px 200px;
     }
     
     li {
