@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    padding: 1rem;
+}
+
+.my-book {
+    display: grid;
+    grid-template-columns: 1rem 8rem;
+    grid-template-areas: "spine cover" "footer footer";
+}
+
+.my-book div {
+    border: 0.1rem solid black;
+}
+
+.my-book-cover {
+    grid-area: cover;
+    height: 7rem;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.my-book-spine {
+    grid-area: spine;
+    background-color: #4A4238;
+    border-top-left-radius: 0.3rem;
+}
+
+.my-book-footer {
+    grid-area: footer;
+    padding: 0.2rem;
+    background-color: lightgray;
+    border-bottom-left-radius: 0.3rem;
+}
