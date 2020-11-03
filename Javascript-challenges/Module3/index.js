@@ -9,7 +9,13 @@ var shopper = {
 }
 console.log(shopper["name"]);
 
-
+function foo() {
+    var a = b = 5;
+    console.log(a)
+}
+foo();
+console.log(a)
+console.log(b);
 //Assignment - Loop Olympics - Preliminaries
 
 // Write a for loop that prints to the console the numbers 0 through 9.
