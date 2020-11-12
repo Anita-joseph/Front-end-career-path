@@ -1,12 +1,7 @@
     body {
         padding: 0;
         margin: 0;
-        background-image: url("./img/bckgrnd-image.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         font-size: 1.2rem;
-        color: white;
     }
     
     *,
@@ -17,19 +12,10 @@
     }
     
     header {
-        height: 150px;
-        width: 100%;
-        border: 10px inset yellow;
-    }
-    
-    h1 {
-        text-align: center;
+        border: 10px inset rgb(41, 129, 110);
+        background-color: greenyellow;
         line-height: 2;
-    }
-    
-    ul {
-        display: grid;
-        grid-template: 200px 200px 200px/ 200px 200px 200px 200px 200px;
+        margin-bottom: 10px;
     }
     
     li {
@@ -41,10 +27,57 @@
         color: white;
     }
     
-    a:hover {
-        background: linear-gradient(orange, yellow);
-        color: darkblue;
+    h1 {
         font-size: 20px;
-        padding: 20px;
+        text-align: center;
+    }
+    
+    a:hover {
+        background: linear-gradient(green, lightgreen);
+        padding: 2px;
         font-family: cursive;
+    }
+    
+    .subhead {
+        background-color: #281B2D;
+        color: #FCD801;
+        font-size: 34px;
+        padding: 20px;
+        border-bottom: 5px solid #00C54C;
+        margin-top: 0;
+    }
+    
+    .white-text {
+        color: #fff
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .columns {
+        display: flex;
+    }
+    
+    .main-content {
+        width: 65%;
+        margin-right: 5%;
+    }
+    
+    .sidebar {
+        width: 30%;
+        margin: 0 0 2em 0;
+        background: #9AE84F;
+        padding: 15px;
+        box-shadow: 5px 5px 20px;
+    }
+    
+    .source {
+        font-size: 12px;
+    }
+    
+    .col-right {
+        margin-left: 25px;
     }
