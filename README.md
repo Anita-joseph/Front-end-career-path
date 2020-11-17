@@ -19,4 +19,4 @@ Build an Users app
  Build a Jaepardy app
 Javascript challenges, API challenges, Fetch technique, Promise challenges
 ```
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ab82d375-537e-42a3-a7e2-9029fa09eb46/deploy-status)](https://app.netlify.com/sites/anitadevfrontend/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/734f2536-285c-4523-a769-14b456613586/deploy-status)](https://app.netlify.com/sites/front-end-career-path/deploys)
