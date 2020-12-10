@@ -20,7 +20,7 @@ Build an Users app
 Javascript challenges, API challenges, Fetch technique, Promise challenges
 ```
 
-[Scrimba FE Certificate](https://scrimba.com/certificate/ug9DaVSz/gfrontend)(<img alt="FrontEnd career path certificate" src="C:\wamp\www\Github\Front-end-career-path\img\certificate.png">)
+[Scrimba FE Certificate](https://scrimba.com/certificate/ug9DaVSz/gfrontend)(<img alt=" certificate" src="Front-end-career-path/blob/master/img/certificate.png" height="30" width="30">)
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/734f2536-285c-4523-a769-14b456613586/deploy-status)](https://app.netlify.com/sites/front-end-career-path/deploys)
