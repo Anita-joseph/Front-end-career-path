@@ -19,8 +19,7 @@ Build an Users app
  Build a Jaepardy app
 Javascript challenges, API challenges, Fetch technique, Promise challenges
 ```
-[Scrimba FE Certificate]
-<a href="https://scrimba.com/certificate/ug9DaVSz/gfrontend"><img alt=" certificate" src="/img/certificate.png" height="430" width="430"></a>
+<a href="https://scrimba.com/certificate/ug9DaVSz/gfrontend"><img alt=" certificate" src="/img/certificate.png" height="500" width="600"></a>
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/734f2536-285c-4523-a769-14b456613586/deploy-status)](https://app.netlify.com/sites/front-end-career-path/deploys)
