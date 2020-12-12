@@ -1,24 +1,30 @@
 # Front-end-career-path
- ###### CSS, JS fundamentals, RWD , React js,
-``` Making interactive websites 
- Build a **Diary app**
- Build a **Snake game**
- Build a *Dice game*
- Build a Pacman game```
+###### CSS, Javascript ES6, Responsive Web Design , React js,
+
+* Making interactive websites 
+* Build a __Diary app__
+* Build a __Snake game__
+* Build a __Dice game__
+* Build a __Pacman game__
+
  ```Random Joke generator
 	Simple Life Blog
 	Build a UI Card using Flex and Grid
  ```
- #### Flexbox, Grid Fetch-API
-```
-Build a Punk app
-Build a library app
-Build a Photo app
-Build an Users app 
- Build a pokemon app 
- Build a Jaepardy app
-Javascript challenges, API challenges, Fetch technique, Promise challenges
-```
+
+#### Flexbox, Grid Fetch-API
+
+* Build a Punk app
+* Build a library app
+* Build a Photo app
+* Build an Users app 
+* Build a pokemon app 
+* Build a Jaepardy app
+* Javascript challenges
+* API challenges
+* Fetch technique
+* Promise challenges
+
 <a href="https://scrimba.com/certificate/ug9DaVSz/gfrontend"><img alt=" certificate" src="/img/certificate.png" height="500" width="600"></a>
 
 
